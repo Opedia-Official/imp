@@ -1,0 +1,500 @@
+/*
+  Theme Name: Imperial
+  Author: Imperial Mining
+  Description: This is a Imperial Production
+  Version: 1.0
+*/
+
+/* 1. Theme default css */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600&display=swap");
+
+/* font-family: 'DM Sans', sans-serif;
+
+font-family: 'Poppins', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #111111;
+}
+.img {
+  max-width: 100%;
+  transition: all 0.3s ease-out 0s;
+}
+img {
+  width: 100%;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.fix {
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+}
+a,
+.button,
+button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+button:focus {
+  outline: 0 none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: #fff;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 22px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 16px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
+p {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 0;
+}
+hr {
+  border-bottom: 1px solid #eceff8;
+  border-top: 0 none;
+  margin: 30px 0;
+  padding: 0;
+}
+label {
+  color: #7e7e7e;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+*::-moz-selection {
+  background: #d6b161;
+  color: #fff;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+*::-moz-placeholder {
+  color: #555555;
+  font-size: 14px;
+  opacity: 1;
+}
+*::placeholder {
+  color: #555555;
+  font-size: 14px;
+  opacity: 1;
+}
+.btn-brand {
+  background: linear-gradient(114.84deg, #ba963a 34.18%, #e6ae1f 88.42%);
+  border-radius: 8px;
+  padding: 16px 24px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  font-family: "Inter";
+}
+.btn-two {
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 16px 24px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  font-family: "Inter";
+}
+
+.btn-brand:hover {
+  color: #fff;
+}
+
+/* Custom css Starts here */
+
+
+/* ***************************HEADER******************* */
+li.nav-item {
+  margin-left: 22px;
+  margin: 10px 0;
+  margin-left: 22px;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: rgba(0, 0, 0, 0.1);
+  background: #777 !important;
+}
+li.nav-item a {display: flex;align-items: center;}
+
+li.nav-item a img {display: inline-block;margin-right: 8px;}
+/* ***************************HEADER******************* */
+/* D */
+
+/* trust */
+.trust {
+  margin: 200px 0px;
+}
+.trust h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  background: linear-gradient(90.46deg, #ba963a 46.95%, #cc9c21 57.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.trust p {
+  /* Body lg / Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  text-align: center;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.trust h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 60px;
+  /* identical to box height, or 167% */
+
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  background: linear-gradient(94.06deg, #ba963a 53.07%, #cc9c21 70.76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-top: 100px;
+}
+.trust .row h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 38px;
+  /* identical to box height, or 158% */
+
+  letter-spacing: -0.025em;
+
+  color: #ba963a;
+}
+.trust .row .img img {
+  width: 122px;
+}
+.trust .row p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38px;
+  /* identical to box height, or 238% */
+
+  letter-spacing: -0.025em;
+
+  color: #ffffff;
+}
+
+/* single-Logo */
+
+.logos {
+  display: flex; /* White */
+
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.single-Logo {
+  width: 20%;
+}
+.single-Logo img {
+  width: 60%;
+}
+/* single-Logo */
+
+/* partner */
+.partner {
+  margin: 200px 0px;
+}
+.partner h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* or 125% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.partner h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  /* or 125% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+  margin-bottom: 40px;
+
+  /* Inside auto layout */
+}
+.partner p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+/* partner */
+/* way-section */
+.way-section {
+  margin: 200px 0;
+}
+
+.way-section .row {
+  padding: 86px 124px;
+  background: #313131;
+  border: 1px solid #ba963a;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 90px 0;
+}
+
+.waytitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+  text-align: left;
+
+  color: #ba963a;
+}
+.way-des {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+  font-feature-settings: "liga" off;
+  text-align: left;
+  width: 100%;
+
+  /* White */
+
+  color: #ffffff;
+}
+/* way-section */
+
+/* footer  */
+.footertitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "liga" off;
+
+  /* White */
+
+  color: #ffffff;
+  margin-top: 70px;
+  margin-bottom: 16px;
+}
+footer .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "liga" off;
+
+  /* White */
+
+  color: #ffffff;
+}
+.footeritem {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "liga" off;
+
+  /* White */
+
+  color: #ffffff;
+  display: block;
+  margin-top: 30px;
+}
+.buttonprimary {
+  background: linear-gradient(92.65deg, #ba963a 43.68%, #cc9c21 80.97%);
+  border-radius: 10px;
+  color: #ffffff;
+
+  margin-top: 10px;
+  transition: all 0.3s ease-out 0s;
+}
+input {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px 293px 10px 15px;
+  width: 100%;
+}
+input::placeholder {
+  color: #181818 !important;
+}
+.buttonprimary:hover {
+  background: linear-gradient(92.65deg, #a68634 43.68%, #916b0b 80.97%);
+  border-radius: 10px;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* footer  */
