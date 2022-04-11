@@ -181,7 +181,6 @@ label {
 
 /* Custom css Starts here */
 
-
 /* ***************************HEADER******************* */
 li.nav-item {
   margin-left: 22px;
@@ -193,11 +192,375 @@ li.nav-item {
   border-color: rgba(0, 0, 0, 0.1);
   background: #777 !important;
 }
-li.nav-item a {display: flex;align-items: center;}
+li.nav-item a {
+  display: flex;
+  align-items: center;
+}
 
-li.nav-item a img {display: inline-block;margin-right: 8px;}
+li.nav-item a img {
+  display: inline-block;
+  margin-right: 8px;
+}
 /* ***************************HEADER******************* */
 /* D */
+
+/* analysis */
+.analysis {
+  background: linear-gradient(151.48deg, #ba963a 14.56%, #cc9c21 87.95%);
+  border-radius: 10px;
+  margin: 180px 0px;
+  padding: 80px 40px;
+}
+.analysis h1 {
+  /* Display lg / Bold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+}
+.analysis p {
+  /* Body lg / Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  /* text-align: center; */
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+}
+.analysis h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+  margin: 90px 0 60px;
+}
+
+.btc {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px 50px;
+  margin-bottom: 20px;
+}
+.btc .col-md-4 {
+  display: flex;
+  justify-content: flex-end;
+}
+.btc img {
+  width: 20px;
+  margin: 0px 5px;
+}
+.btc span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "liga" off;
+
+  color: #ba963a;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.btc h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+  color: #313131;
+  margin: 10px 0px;
+}
+.btc p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #313131;
+}
+.btc .brand1 {
+  background: #ea5021;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btc .brand2 {
+  background: #c31f25;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btc .brand3 {
+  background: #00e76a;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* table  */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  height: calc(100% - 20px);
+  background: white;
+  border-radius: 20px;
+}
+th {
+  color: #ba963a;
+}
+td {
+  flex-direction: revert;
+}
+.tdimg {
+  width: 20px;
+  margin-right: 10px;
+}
+td,
+th {
+  text-align: left;
+  padding: 26px;
+}
+
+/* analysis */
+
+/* mobileshow */
+.mobileshow .row {
+  margin: 200px 0px !important;
+}
+.mobileshow h1 {
+  /* Display lg/Bold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  background: linear-gradient(90.46deg, #ba963a 46.95%, #cc9c21 57.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.mobileshow h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 37px;
+  /* or 103% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #c5c5c5;
+}
+.mobileshow p {
+  /* Body lg / Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+  width: 70%;
+}
+.mobileshow .maindiv {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* mobileshow */
+
+/* finalcial */
+.finalcial {
+  background: #ba963a;
+  padding: 140px 0;
+  margin: 150px 0;
+  background-image: url("../images/Group.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.finalcial .finanmain {
+  width: 47%;
+}
+.finalcial h1 {
+  /* Display lg/Bold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+}
+.finalcial p {
+  /* Body lg / Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+  width: 65%;
+}
+
+/* finalcial */
+
+/* inestmain */
+
+.Investors {
+  margin: 200px 0px;
+}
+.Investors h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  background: linear-gradient(90.46deg, #ba963a 46.95%, #cc9c21 57.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 50px;
+}
+
+.inestmain {
+  background: #313131;
+  box-shadow: 0px 18px 35px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 45px;
+  border-bottom: 8px solid #ba963a;
+  height: 327px;
+}
+.inestmain h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 60px;
+  /* identical to box height, or 83% */
+
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.inestmain p {
+  display: flex;
+  align-items: self-end;
+  font-size: 18px;
+}
+.inestmain small {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.inestmain .exp {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: -0.025em;
+  font-feature-settings: "liga" off;
+  margin: 30px 0px;
+
+  color: #ba963a;
+}
+/* inestmain */
 
 /* trust */
 .trust {
@@ -219,7 +582,6 @@ li.nav-item a img {display: inline-block;margin-right: 8px;}
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 
   /* Inside auto layout */
 
@@ -268,7 +630,6 @@ li.nav-item a img {display: inline-block;margin-right: 8px;}
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
   margin-top: 100px;
 }
 .trust .row h5 {
